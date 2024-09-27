@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "/home/kwilliams/projects/is373_devops/playwright.config.js",
-    "rootDir": "/home/kwilliams/projects/is373_devops",
+    "configFile": "/Users/maliks/Desktop/is373_devops-1/playwright.config.js",
+    "rootDir": "/Users/maliks/Desktop/is373_devops-1",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -33,13 +33,13 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "/home/kwilliams/projects/is373_devops/test-results",
+        "outputDir": "/Users/maliks/Desktop/is373_devops-1/test-results",
         "repeatEach": 1,
         "retries": 1,
         "metadata": {},
         "id": "Desktop Chrome",
         "name": "Desktop Chrome",
-        "testDir": "/home/kwilliams/projects/is373_devops",
+        "testDir": "/Users/maliks/Desktop/is373_devops-1",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -47,13 +47,13 @@
         "timeout": 60000
       },
       {
-        "outputDir": "/home/kwilliams/projects/is373_devops/test-results",
+        "outputDir": "/Users/maliks/Desktop/is373_devops-1/test-results",
         "repeatEach": 1,
         "retries": 1,
         "metadata": {},
         "id": "Desktop Firefox",
         "name": "Desktop Firefox",
-        "testDir": "/home/kwilliams/projects/is373_devops",
+        "testDir": "/Users/maliks/Desktop/is373_devops-1",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -61,13 +61,13 @@
         "timeout": 60000
       },
       {
-        "outputDir": "/home/kwilliams/projects/is373_devops/test-results",
+        "outputDir": "/Users/maliks/Desktop/is373_devops-1/test-results",
         "repeatEach": 1,
         "retries": 1,
         "metadata": {},
         "id": "Desktop Safari",
         "name": "Desktop Safari",
-        "testDir": "/home/kwilliams/projects/is373_devops",
+        "testDir": "/Users/maliks/Desktop/is373_devops-1",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -78,7 +78,7 @@
     "shard": null,
     "updateSnapshots": "missing",
     "version": "1.47.2",
-    "workers": 12,
+    "workers": 4,
     "webServer": {
       "command": "npm run start",
       "port": 3000,
@@ -108,12 +108,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 135,
+                  "duration": 387,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-09-25T16:11:30.950Z",
+                  "startTime": "2024-09-27T13:42:19.491Z",
                   "attachments": []
                 }
               ],
@@ -129,12 +129,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 735,
+                  "duration": 609,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-09-25T16:11:30.954Z",
+                  "startTime": "2024-09-27T13:42:19.491Z",
                   "attachments": []
                 }
               ],
@@ -150,12 +150,12 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 483,
+                  "duration": 696,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-09-25T16:11:30.954Z",
+                  "startTime": "2024-09-27T13:42:19.494Z",
                   "attachments": []
                 }
               ],
@@ -172,8 +172,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-09-25T16:11:30.325Z",
-    "duration": 1987.3939999999998,
+    "startTime": "2024-09-27T13:42:19.236Z",
+    "duration": 1973.6600000000003,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,
